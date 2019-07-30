@@ -8,13 +8,13 @@ def choose_one(disability)
     return "http://www.chadd.org/understanding-adhd/about-adhd/frequently-asked-questions-about-adhd.aspx"
     
   elsif disability == "Autism"
-    return "https://iancommunity.org/autism-faq"
-    return ""
+    return "https://iancommunity.org/autism-faq", "https://www.scientificamerican.com/article/autism-it-s-different-in-girls" 
+    
 
   
     
-  elsif disability == "Autism"
-    return "https://www.scientificamerican.com/article/autism-it-s-different-in-girls"
+  # elsif disability == "Autism"
+  #   return "https://www.scientificamerican.com/article/autism-it-s-different-in-girls"
 
     
    disability == "Dyslexia"
